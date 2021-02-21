@@ -49,7 +49,7 @@
 		13A2F34E25E3101B0096CA40 /* BootcampAppDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BootcampAppDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		13A2F35225E3101B0096CA40 /* BootcampAppDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BootcampAppDemoUITests.swift; sourceTree = "<group>"; };
 		13A2F35425E3101B0096CA40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		13A2F36625E314730096CA40 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		13A2F36725E3150C0096CA40 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +80,7 @@
 		13A2F32425E310190096CA40 = {
 			isa = PBXGroup;
 			children = (
-				13A2F36625E314730096CA40 /* README.md */,
+				13A2F36725E3150C0096CA40 /* README.md */,
 				13A2F32F25E310190096CA40 /* BootcampAppDemo */,
 				13A2F34625E3101B0096CA40 /* BootcampAppDemoTests */,
 				13A2F35125E3101B0096CA40 /* BootcampAppDemoUITests */,
