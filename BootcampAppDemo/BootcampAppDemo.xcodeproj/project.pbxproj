@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		13A2F33125E310190096CA40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A2F33025E310190096CA40 /* AppDelegate.swift */; };
-		13A2F33325E310190096CA40 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A2F33225E310190096CA40 /* SceneDelegate.swift */; };
 		13A2F33525E310190096CA40 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A2F33425E310190096CA40 /* ViewController.swift */; };
 		13A2F33825E310190096CA40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13A2F33625E310190096CA40 /* Main.storyboard */; };
 		13A2F33A25E3101B0096CA40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13A2F33925E3101B0096CA40 /* Assets.xcassets */; };
@@ -37,7 +36,6 @@
 /* Begin PBXFileReference section */
 		13A2F32D25E310190096CA40 /* BootcampAppDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BootcampAppDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13A2F33025E310190096CA40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		13A2F33225E310190096CA40 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		13A2F33425E310190096CA40 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		13A2F33725E310190096CA40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		13A2F33925E3101B0096CA40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -102,7 +100,6 @@
 			isa = PBXGroup;
 			children = (
 				13A2F33025E310190096CA40 /* AppDelegate.swift */,
-				13A2F33225E310190096CA40 /* SceneDelegate.swift */,
 				13A2F33425E310190096CA40 /* ViewController.swift */,
 				13A2F33625E310190096CA40 /* Main.storyboard */,
 				13A2F33925E3101B0096CA40 /* Assets.xcassets */,
@@ -262,7 +259,6 @@
 			files = (
 				13A2F33525E310190096CA40 /* ViewController.swift in Sources */,
 				13A2F33125E310190096CA40 /* AppDelegate.swift in Sources */,
-				13A2F33325E310190096CA40 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,7 +444,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.alex.BootcampAppDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -467,7 +463,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.alex.BootcampAppDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
